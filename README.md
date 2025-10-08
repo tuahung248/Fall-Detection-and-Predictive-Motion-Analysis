@@ -308,7 +308,3 @@ Consider these extensions to improve the system:
 This project welcomes contributions from the data science and health monitoring communities. Whether you're improving the classification algorithms, adding new features, or enhancing the documentation, your input helps make activity detection more accurate and accessible.
 
 Focus areas for contribution include optimizing feature engineering pipelines, implementing additional machine learning models, and expanding the test coverage with diverse accelerometer datasets.
-
----
-
-*Ready to analyze movement patterns in your sensor data? Start by exploring the sample analysis reports in the `analysis/` directory to see what insights await in your own datasets.*
