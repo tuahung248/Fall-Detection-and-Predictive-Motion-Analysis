@@ -1,6 +1,4 @@
-# Sensor-Data-Processing-and-Analysis-Pipeline
-# Accelerometer Activity Detection & Analysis
-
+# Fall-Detection-and-Predictive-Motion-Analysis
 A real-time accelerometer data analysis system that detects and classifies human activities, including fall detection, using machine learning techniques. This project processes time-series accelerometer data to identify activity patterns, generate alerts, and provide insights into movement behavior.
 
 ## Overview
