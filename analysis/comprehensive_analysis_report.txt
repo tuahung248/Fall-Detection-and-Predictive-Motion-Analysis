@@ -1,0 +1,77 @@
+Accelerometer Analysis Report
+==============================
+
+Generated: 2025-09-29 02:20:19
+
+Data Overview
+---------------
+Total samples: 48
+Activities: 6
+GPS samples: 11
+Alerts: 2 (4.2%)
+
+Activity Distribution:
+  still               :  37 ( 77.1%)
+  vigorous_activity   :   4 (  8.3%)
+  moderate_activity   :   3 (  6.2%)
+  fall_detected       :   2 (  4.2%)
+  uncertain           :   1 (  2.1%)
+  light_activity      :   1 (  2.1%)
+
+Detection Performance
+--------------------
+Activity Stats:
+
+STILL (n=37):
+  magnitude_mean           :  1.0003 ±  0.0016
+  magnitude_std            :  0.0015 ±  0.0018
+  movement_score           :  0.0047 ±  0.0052
+  baseline_deviation_mean  :  0.0013 ±  0.0014
+
+VIGOROUS ACTIVITY (n=4):
+  magnitude_mean           :  1.0560 ±  0.0780
+  magnitude_std            :  0.4127 ±  0.0543
+  movement_score           :  1.4391 ±  0.2251
+  baseline_deviation_mean  :  0.3438 ±  0.0544
+
+MODERATE ACTIVITY (n=3):
+  magnitude_mean           :  1.1029 ±  0.1466
+  magnitude_std            :  0.2049 ±  0.0418
+  movement_score           :  0.6797 ±  0.1519
+  baseline_deviation_mean  :  0.1692 ±  0.0718
+
+FALL DETECTED (n=2):
+  magnitude_mean           :  1.0660 ±  0.0928
+  magnitude_std            :  0.1301 ±  0.1817
+  movement_score           :  0.4262 ±  0.5954
+  baseline_deviation_mean  :  0.1019 ±  0.1422
+
+UNCERTAIN (n=1):
+  magnitude_mean           :  0.9769 ±     nan
+  magnitude_std            :  0.0714 ±     nan
+  movement_score           :  0.1977 ±     nan
+  baseline_deviation_mean  :  0.0440 ±     nan
+
+LIGHT ACTIVITY (n=1):
+  magnitude_mean           :  1.0634 ±     nan
+  magnitude_std            :  0.1247 ±     nan
+  movement_score           :  0.2983 ±     nan
+  baseline_deviation_mean  :  0.0634 ±     nan
+
+GPS Analysis
+------------
+GPS samples: 11
+Locations: 1
+Top locations:
+  (-37.851000, 145.116000): 11
+
+Alert locations (2):
+  fall_detected at (-37.851000, 145.116000)
+  fall_detected at (-37.851000, 145.116000)
+
+Recommendations
+---------------
+• General improvements:
+  - Better GPS signal
+  - Longer collection windows
+  - Ground truth labeling
